@@ -29,7 +29,7 @@ function mostrarVideojuegos(datos) {
       <td><strong>${juego.titulo}</strong></td>
       <td>${juego.genero}</td>
       <td>${juego.plataforma}</td>
-      <td>${juego.anio_lanzamiento}</td>
+      <td>${juego.año_lanzamiento}</td>
       <td><span class="badge">★ ${juego.calificacion}</span></td>
     `;
     tbody.appendChild(fila);
